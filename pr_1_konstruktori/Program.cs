@@ -16,6 +16,7 @@ namespace pr_1_konstruktori
             public int imenilac;
             
         }
+        //kon sa parametrima
         public Racionalan(int brojilac, int imenilac)
         {
             this.brojilac = brojilac;
@@ -49,7 +50,12 @@ namespace pr_1_konstruktori
             r3.Ispisi();
             Console.WriteLine("r4 = ");
             r4.Ispisi();
-
+            Racionalan r5 = r1;
+            Console.WriteLine("r5 = ");
+            r5.Ispisi();
+            r5.brojilac = 9;
+            r5.imenilac = 5;
+            Console.WriteLine("Novo r5 = ");
 
         }
     }
