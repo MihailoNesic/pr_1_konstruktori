@@ -42,21 +42,23 @@ namespace pr_1_konstruktori
             r4.brojilac = 3;
             r4.imenilac = 4;
             Console.WriteLine("Prikaz razlomaka:");
-            Console.WriteLine("r1 = ");
+            Console.Write("r1 = ");
             r1.Ispisi();
-            Console.WriteLine("r2 = ");
+            Console.Write("r2 = ");
             r2.Ispisi();
-            Console.WriteLine("r3 = ");
+            Console.Write("r3 = ");
             r3.Ispisi();
-            Console.WriteLine("r4 = ");
+            Console.Write("r4 = ");
             r4.Ispisi();
             Racionalan r5 = r1;
-            Console.WriteLine("r5 = ");
+            Console.Write("r5 = ");
             r5.Ispisi();
             r5.brojilac = 9;
             r5.imenilac = 5;
-            Console.WriteLine("Novo r5 = ");
-
+            Console.Write("Novo r5 = ");
+            r5.Ispisi();
+            Console.Write("r1 = ");
+            r1.Ispisi();
         }
     }
 }
